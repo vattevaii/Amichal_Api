@@ -1,0 +1,8 @@
+@client = https://localhost:7284/api
+POST {{client}}/auth/login
+Content-Type: application/json
+
+{
+   "email":"abc@gmail.com",
+   "password":"abc@gmail.com"
+}

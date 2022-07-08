@@ -1,0 +1,4 @@
+@client = https://localhost:7284/api
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiiJlNWJkOTE0Yi0zMzE1LTQyYmUtYWQzOS1lNDM3ZjkyNzBmZGUiLCJnaXZlbl9uYW1lIjoiQXNoaXNoIiwiZmFtaWx5X25hbWUiOiJCaHR0YXJhaSIsImp0aSI6ImQzZDcxZjE3LTg4NmMtNGY0YS05ZTFmLTJiMjdmZDllOGRmMCIsImV4cCI6MTY1NzAwNjY5MywiaXNzIjoiQW1pc2NoYWwiLCJhdWQiOiJBbWlzY2hhbCJ9.9IswbXvakO5krVDrACJw4SkAoQZailY-u21q4NonX08
+GET  {{client}}/auth/test
+Authorization: Bearer {{ token }}

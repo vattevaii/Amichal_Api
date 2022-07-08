@@ -1,0 +1,2 @@
+@client = https://localhost:7284/api
+GET {{client}}/user/admin

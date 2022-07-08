@@ -1,0 +1,11 @@
+@client = https://localhost:7284/api
+POST {{client}}/auth/register
+Content-Type: application/json
+
+{
+   "email":"abcd@gmail.com",
+   "password":"abc@gmail.com",
+   "firstname":"Ashish",
+   "lastName":"Bhttarai",
+   "seller": "Admin"
+}
